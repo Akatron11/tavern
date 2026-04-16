@@ -1,0 +1,36 @@
+# TAVERN APP - Proje Konfigürasyon Dosyası
+# Değişiklik sonrası "flutter pub get" komutunu çalıştırın!
+
+name: tavern_app
+description: "Taverna için günlük ciro, gider, personel ve veresiye takibi"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+# Kullanılan kütüphaneler
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+# Geliştirme araçları
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# Flutter ayarları
+flutter:
+  uses-material-design: true
+  
+  # Resim eklemek için:
+  # assets:
+  #   - images/logo.png
+  
+  # Font eklemek için:
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf

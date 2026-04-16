@@ -1,0 +1,5 @@
+package com.taverna.tavern_app
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
